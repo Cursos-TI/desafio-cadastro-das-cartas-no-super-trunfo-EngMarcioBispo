@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Estrutura para representar uma carta do Super Trunfo
+// Estrutura para representar uma carta do Super Trunfo.
 typedef struct {
     char estado[3];
     char codigo[10];

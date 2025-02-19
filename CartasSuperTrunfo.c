@@ -13,7 +13,7 @@ typedef struct {
     float pib_per_capita;
 } Carta;
 
-// Função para calcular os valores derivados da carta (densidade populacional e PIB per capita)
+// Função para calcular os valores derivados da carta (densidade populacional e PIB per capita)..
 void calcular_valores(Carta *c) {
     c->densidade_populacional = c->populacao / c->area;
     c->pib_per_capita = c->pib / c->populacao;
